@@ -4,6 +4,7 @@
   --White: #ffffff;
   --Grey-light: #697077;
   --Grey-dark: #4c4e61;
+  --Grey-Background: #fafafa;
   --Red: #ea5353;
   --Cyan: #45d3d3;
   --Orange: #fcaf4a;
@@ -31,6 +32,7 @@ body {
   font-size: 1.4rem; /* 14px */
   color: var(--Grey-light);
   font-weight: var(--weight-400);
+  background-color: var(--Grey-Background);
 }
 
 .wrapper {
