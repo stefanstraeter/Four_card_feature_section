@@ -13,15 +13,15 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/stefanstraeter/Four_card_feature_section.git)
-- Live Site URL: [Live Demo]()
+- Live Site URL: [Live Demo](https://stefanstraeter.github.io/Four_card_feature_section/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- mobile first approach
-- Grid layout
+- Mobile first approach
+- CSS Grid layout
 - Responsive design principles
 
 ### Key learnings
@@ -36,4 +36,3 @@ This project helped reinforce my understanding of:
 
 - GitHub (https://github.com/stefanstraeter)
 - Frontend (https://www.frontendmentor.io/profile/stefanstraeter)
-# Four_card_feature_section
