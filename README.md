@@ -1,6 +1,6 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Four Card Feature Section Solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to the [Four Card Feature Section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building real-world projects.
 
 ## Overview
 
@@ -8,7 +8,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View an optimized, responsive layout that adapts seamlessly to different screen sizes using CSS Grid and Flexbox
 
 ### Links
 
@@ -20,19 +20,21 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Mobile first approach
-- CSS Grid layout
-- Responsive design principles
+- Mobile-first approach for responsive design
+- CSS Grid for advanced layout control
+- Flexbox for flexible alignment and centering
+- CSS variables for consistent and maintainable styling
 
 ### Key learnings
 
-This project helped reinforce my understanding of:
+This project helped me deepen my knowledge in:
 
-- Semantic HTML structure for accessibility
-- CSS variables for consistent styling
-- Responsive design techniques with mobile first approach
+- Crafting semantic and accessible HTML structures
+- Implementing responsive design principles with CSS Grid and Flexbox
+- Using CSS custom properties for scalable and consistent theming
+- Organizing CSS with a modular, component-based approach
 
 ## Author
 
-- GitHub (https://github.com/stefanstraeter)
-- Frontend (https://www.frontendmentor.io/profile/stefanstraeter)
+- GitHub: [stefanstraeter](https://github.com/stefanstraeter)
+- Frontend Mentor: [stefanstraeter](https://www.frontendmentor.io/profile/stefanstraeter)
