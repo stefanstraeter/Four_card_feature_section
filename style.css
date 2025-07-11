@@ -1,0 +1,154 @@
+/* === Variables === */
+:root {
+  /* Colors */
+  --White: #ffffff;
+  --Grey-light: #697077;
+  --Grey-dark: #4c4e61;
+  --Red: #ea5353;
+  --Cyan: #45d3d3;
+  --Orange: #fcaf4a;
+  --Blue: #549ef2;
+
+  /*Typography */
+  --font-family-base: "Poppins", sans-serif;
+  --font-family-headlines: "Poppins", sans-serif;
+
+  /* Font Weights */
+  --weight-200: 200;
+  --weight-400: 400;
+  --weight-600: 600;
+}
+
+/* === Base & Typography === */
+/* Mobile First Approach */
+html {
+  font-family: var(--font-family-base);
+  font-size: 62.5%; /* 16px * 0.625 = 10px */
+  text-wrap: wrap;
+}
+
+body {
+  font-size: 1.4rem; /* 14px */
+  color: var(--Grey-light);
+  font-weight: var(--weight-400);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 1.4rem;
+}
+
+h1,
+h2 {
+  font-family: var(--font-family-headlines);
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  color: var(--Grey-dark);
+}
+
+h1 {
+  font-weight: var(--weight-200);
+}
+
+h2 {
+  font-weight: var(--weight-600);
+}
+
+h3 {
+  color: var(--Grey-dark);
+}
+
+/* Tablet & Desktop Styles */
+@media (min-width: 768px) {
+  .wrapper {
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+}
+
+/* === Header Layout === */
+header {
+  text-align: center;
+  margin: 0 2rem;
+  width: clamp(10rem, 85%, 50rem);
+}
+
+header p {
+  font-size: 1.4rem;
+  padding: 2rem 1rem;
+}
+
+/* === Grid Container Layout === */
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(4, 1fr);
+  grid-row-gap: 2rem;
+  margin: 3rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: center;
+    grid-template-areas:
+      "supervisor team-player calculator"
+      "supervisor karma       calculator";
+  }
+}
+
+/* === Card Component === */
+.card {
+  background-color: var(--White);
+  max-width: 35rem;
+  box-shadow: 0px 5px 15px rgba(76, 78, 97, 0.2);
+  border-radius: 12px;
+  padding: 3rem;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-supervisor {
+  border-top: var(--Cyan) solid 5px;
+}
+
+.card-team-builder {
+  border-top: var(--Red) solid 5px;
+}
+
+.card-calculator {
+  border-top: var(--Blue) solid 5px;
+}
+
+.card-karma {
+  border-top: var(--Orange) solid 5px;
+}
+
+.card-icon {
+  margin: 3rem 0 0 auto;
+}
+
+@media (min-width: 768px) {
+  .card-supervisor {
+    grid-area: supervisor;
+  }
+
+  .card-team-builder {
+    grid-area: team-player;
+  }
+
+  .card-calculator {
+    grid-area: calculator;
+  }
+
+  .card-karma {
+    grid-area: karma;
+  }
+}
