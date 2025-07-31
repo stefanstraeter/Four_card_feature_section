@@ -16,7 +16,7 @@ Users should be able to:
 - Live Site URL: [Live Demo](https://stefanstraeter.github.io/Four_card_feature_section/)
 
 ### Screenshot
-<img width="2024" height="1168" alt="Four Card Feature Section Solution" src="https://github.com/user-attachments/assets/323935d7-f604-44ab-94b1-56839e7ce1cc" />
+<img width="1074" height="701" alt="Four Card Feature Section Solution" src="https://github.com/user-attachments/assets/51475d5c-a4d2-4f48-8919-62bc59dfcaac" />
 
 
 ## My process
