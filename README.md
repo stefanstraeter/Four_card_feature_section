@@ -15,6 +15,10 @@ Users should be able to:
 - Solution URL: [GitHub Repository](https://github.com/stefanstraeter/Four_card_feature_section.git)
 - Live Site URL: [Live Demo](https://stefanstraeter.github.io/Four_card_feature_section/)
 
+### Screenshot
+<img width="2024" height="1168" alt="Four Card Feature Section Solution" src="https://github.com/user-attachments/assets/323935d7-f604-44ab-94b1-56839e7ce1cc" />
+
+
 ## My process
 
 ### Built with
